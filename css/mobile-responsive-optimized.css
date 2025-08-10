@@ -1,0 +1,225 @@
+/* ==========================================
+   MOBILE RESPONSIVE STYLES - CONFLUENCE-C
+   Versão Otimizada para Mobile
+   ========================================== */
+
+/* Mobile First Approach - Desktop inalterado */
+@media (max-width: 768px) {
+    
+    /* Container e Grid */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Header Mobile */
+    .header-area .main-header-area {
+        padding: 10px 0;
+    }
+    
+    .header-area .main-header-area .logo img {
+        width: 50px;
+    }
+    
+    .main-menu {
+        display: none;
+    }
+    
+    .mobile_menu {
+        display: block !important;
+    }
+    
+    /* Slider Mobile */
+    .slider_area .single_slider {
+        height: auto;
+        min-height: 50vh;
+        padding: 60px 15px;
+    }
+    
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 32px;
+        margin: 15px 0;
+    }
+    
+    .slider_area .single_slider .slider_text p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    
+    /* About Section Mobile */
+    .about_area {
+        padding: 60px 0;
+    }
+    
+    .about_area .about_thumb {
+        margin-bottom: 30px;
+    }
+    
+    .about_area .about_info {
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    /* Ticket Cards Mobile */
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+    
+    /* Performer Section Mobile */
+    .performer-horizontal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .performer-horizontal .col-lg-3 {
+        width: 100%;
+        max-width: 280px;
+        margin-bottom: 30px;
+    }
+    
+    /* Gallery Mobile */
+    .gallery_grid {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .gallery_item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    /* Footer Mobile */
+    .footer .footer_top {
+        padding: 40px 0;
+    }
+    
+    /* Typography Mobile */
+    h1 { font-size: 24px; }
+    h2 { font-size: 28px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 18px; }
+    p { font-size: 14px; line-height: 1.5; }
+    
+    /* Buttons Mobile */
+    .boxed-btn3, .btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        min-height: 44px;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 28px;
+    }
+    
+    .card {
+        max-width: 300px;
+    }
+    
+    .performer-horizontal .col-lg-3 {
+        max-width: 250px;
+    }
+}
+
+/* Touch-friendly improvements */
+@media (max-width: 768px) {
+    
+    /* Ensure touch-friendly targets */
+    button, .btn, .slicknav_btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    /* Improve form inputs */
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-size: 16px;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    
+    /* Fix overflow issues */
+    body {
+        overflow-x: hidden;
+    }
+    
+    /* Navigation improvements */
+    .slicknav_menu {
+        background: rgba(0, 0, 0, 0.9);
+    }
+    
+    .slicknav_btn {
+        margin: 5px;
+    }
+}
+
+/* Large Mobile / Small Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .performer-horizontal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .gallery_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+/* Utility classes for mobile */
+@media (max-width: 768px) {
+    
+    .hidden-mobile {
+        display: none !important;
+    }
+    
+    .visible-mobile {
+        display: block !important;
+    }
+    
+    .text-center-mobile {
+        text-align: center !important;
+    }
+    
+    .section-padding {
+        padding: 60px 0 !important;
+    }
+}
