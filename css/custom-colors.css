@@ -1,0 +1,17 @@
+/* Custom Color Palette for EventCon */
+:root {
+  /* Verde Esmeralda (Emerald Green) */
+  --emerald-green: #009B77;
+  
+  /* Azul Turquesa (Turquoise Blue) */
+  --turquoise-blue: #89D9D9;
+  
+  /* Dourado Suave (Soft Gold) */
+  --soft-gold: #D9AB5D;
+  
+  /* Nude Clássico (Classic Nude) */
+  --classic-nude: #F2E6D0;
+  
+  /* Off White */
+  --off-white: #F8F8F8;
+}

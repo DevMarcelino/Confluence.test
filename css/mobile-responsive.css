@@ -1,0 +1,436 @@
+/* ==========================================
+   MOBILE RESPONSIVE STYLES
+   ========================================== */
+
+/* Reset and Base Mobile Styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Mobile First Approach */
+@media (max-width: 768px) {
+    
+    /* Container adjustments */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    
+    /* Header Mobile Styles */
+    .header-area {
+        position: relative;
+    }
+    
+    .header-area .main-header-area {
+        padding: 10px 0;
+    }
+    
+    .header-area .main-header-area .logo-img img {
+        width: 60px;
+    }
+    
+    .header-area .main-header-area .main-menu {
+        display: none;
+    }
+    
+    .header-area .main-header-area .buy_tkt {
+        justify-content: center;
+    }
+    
+    .header-area .main-header-area .buy_tkt .book_btn {
+        margin-left: 0;
+    }
+    
+    .header-area .main-header-area .buy_tkt .book_btn a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    
+    /* Mobile Menu */
+    .mobile_menu {
+        display: block !important;
+    }
+    
+    .slicknav_menu .slicknav_nav {
+        background: #ffffff;
+        width: 100%;
+    }
+    
+    .slicknav_menu .slicknav_nav a {
+        color: #fff;
+        padding: 10px 15px;
+        border-bottom: 1px solid #333;
+    }
+    
+    /* Slider Mobile Styles */
+    .slider_area .single_slider {
+        height: auto;
+        min-height: 60vh;
+        padding: 80px 0;
+    }
+    
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 47px;
+        line-height: 1.2;
+        margin: 20px 0;
+    }
+    
+    .slider_area .single_slider .slider_text p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    
+    .slider_area .single_slider .slider_text .boxed-btn3 {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    
+    /* About Section Mobile */
+    .about_area {
+        padding: 80px 0;
+    }
+    
+    .about_area .about_thumb {
+        margin-bottom: 30px;
+    }
+    
+    .about_area .about_info {
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .about_area .about_info h4 {
+        font-size: 24px;
+    }
+    
+    .about_area .about_info p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    /* Performer Section Mobile */
+    .performar_area {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    
+    .performar_area .single_performer {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .performar_area .single_performer .performer_heading h4 {
+        font-size: 24px;
+    }
+    
+    /* Program Details Mobile */
+    .program_details_area {
+        padding: 60px 0;
+    }
+    
+    .program_details_area .program_detail_wrap .single_propram {
+        margin-bottom: 30px;
+    }
+    
+    .program_details_area .program_detail_wrap .single_propram .inner_wrap {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    /* Footer Mobile */
+    .footer .footer_top {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    
+    .footer .footer_top .footer_widget {
+        margin-bottom: 30px;
+    }
+    
+    /* Grid System Mobile */
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+    .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .col-xs-6 {
+        width: 50%;
+        float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Typography Mobile */
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Button Mobile */
+.boxed-btn3 {
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+/* Image Responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Map Mobile */
+.map_area #map {
+    height: 300px !important;
+}
+
+.map_area .location_information {
+    position: relative;
+    padding: 20px;
+    right: auto;
+    left: 0;
+    max-width: 100%;
+}
+
+/* Brand Section Mobile */
+.brand_area {
+    padding-top: 60px;
+}
+
+.brand_area .brand_wrap {
+    padding-bottom: 40px;
+}
+
+/* Utility Classes */
+.text-center-mobile {
+    text-align: center;
+}
+
+.hidden-mobile {
+    display: none;
+}
+
+.visible-mobile {
+    display: block;
+}
+
+/* Flexbox Mobile */
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* Navigation Mobile */
+.main-menu {
+    display: none;
+}
+
+.mobile_menu {
+    display: block;
+}
+
+/* Responsive Images */
+.slider_bg_1,
+.slider_bg_2,
+.bradcam_bg_1,
+.bradcam_bg_2,
+.bradcam_bg_3,
+.bradcam_bg_4 {
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+
+/* Card Mobile */
+.card {
+    margin: 0 auto 200px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Mobile */
+.form-control {
+    font-size: 16px;
+    padding: 12px;
+}
+
+/* Social Icons Mobile */
+.social-icons li {
+    margin-right: 10px;
+}
+
+/* Footer Mobile */
+.footer .copy-right_text {
+    padding-bottom: 20px;
+}
+
+/* Scroll Mobile */
+#scrollUp {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    right: 15px;
+    bottom: 15px;
+}
+
+/* Additional Mobile Fixes */
+.section_title h3 {
+        padding: 2rem 0;
+    font-size: 36px;
+}
+
+@media (max-width: 576px) {
+    .section_title h3 {
+        font-size: 28px;
+    }
+}
+
+/* Ensure proper spacing */
+.mb-80 {
+    margin-bottom: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 20px;
+}
+
+.pl-68 {
+    padding-left: 0;
+}
+
+/* Fix overflow issues */
+body {
+    overflow-x: hidden;
+}
+
+/* About Card Mobile Fixes */
+@media (max-width: 767px) {
+    .about_area .card {
+        width: 100% !important;
+        max-width: 480px;
+        height: auto !important;
+        padding: 20px 15px;
+        display: flex !important;
+        flex-direction: row !important; /* Keep logos side by side */
+        align-items: center !important;
+        justify-content: space-between !important; /* Spread logos apart */
+    }
+
+    .about_area .content {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+
+    .about_area .content .logo {
+        position: relative !important;
+        width: 90% !important;
+        height: auto !important;
+        overflow: visible;
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .about_area .content .logo .logo1 {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        height: 30% !important;
+        margin-bottom: 0;
+        margin-right: 0px;
+    }
+
+    .about_area .content .logo .logo2 {
+        position: relative !important;
+        left: -10% !important;
+        top: 5px !important;
+        height: 30px !important;
+        margin-bottom: 0;
+        flex-grow: 1;
+    }
+
+    .about_area .content .logo-bottom-text {
+        position: relative !important;
+        left: 10px !important;
+        top: auto !important;
+        transform: none !important;
+        font-size: 10px !important;
+        opacity: 1 !important;
+        text-align: left;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .about_area .bottom-text {
+        font-size: 10px !important;
+        bottom: 5px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        opacity: 1 !important;
+        padding: 2px 5px !important;
+    }
+}
+
+/* Ensure buttons are touch-friendly */
+button, .btn {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Improve form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    font-size: 16px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Fix viewport issues */
+@viewport {
+    width: device-width;
+    zoom: 1;
+}

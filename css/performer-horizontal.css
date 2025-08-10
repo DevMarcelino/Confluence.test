@@ -1,0 +1,342 @@
+/* Container principal des apresentadores */
+.performar_area .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: -25px;
+}
+
+/* Chaque apresentador */
+.performar_area .single_performer {
+  flex: 0 0 calc(25% - 30px);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Image de l'apresentador */
+.performar_area .single_performer .thumb {
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image de l'apresentateur */
+.performar_area .single_performer .thumb img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Image de l'apresentateur */
+.performar_area .single_performer:hover .thumb img {
+  transform: scale(1.05);
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(33.33% - 30px);
+  }
+}
+
+@media (max-width: 992px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(50% - 30px);
+  }
+}
+
+@media (max-width: 768px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(50% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(100% - 30px);
+  }
+}
+
+/* CSS para layout horizontal dos apresentadores na performar_area */
+
+.performar_area .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.performar_area .single_performer {
+  flex: 0 0 calc(25% - 30px);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.performar_area .single_performer .thumb {
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.performar_area .single_performer .thumb img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.performar_area .single_performer:hover .thumb img {
+  transform: scale(1.05);
+}
+
+.performar_area .single_performer .performer_heading {
+  margin-top: 20px;
+}
+
+.performar_area .single_performer .performer_heading h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #D9AB5D;
+  margin-bottom: 8px;
+}
+
+.performar_area .single_performer .performer_heading span {
+  color: #f8f8f8;
+  font-size: 16px;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(33.33% - 30px);
+  }
+}
+
+@media (max-width: 992px) {
+  .performar_area .single_performer {
+    flex: 0 0 calc(50% - 30px);
+  }
+}
+
+@media (max-width: 768px) {
+  .performar_area .single_performer {
+    flex: 0 0 100%;
+  }
+}

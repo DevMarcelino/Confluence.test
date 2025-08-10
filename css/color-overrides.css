@@ -1,0 +1,236 @@
+/* Sobrescritas de cores para EventCon usando a paleta de cores personalizada */
+
+/* Cores do texto */
+a,
+.text-primary {
+  color: var(--emerald-green) !important;
+}
+
+a:hover,
+a:focus {
+  color: var(--soft-gold) !important;
+}
+
+/* Cores de fundo */
+.black_bg,
+.bg-dark {
+  background-color: var(--off-white) !important;
+}
+
+.white-bg,
+.bg-light {
+  background-color: var(--off-white) !important;
+}
+
+.gray-bg {
+  background-color: var(--classic-nude) !important;
+}
+
+/* Cores dos botões */
+.boxed-btn {
+  background: var(--off-white);
+  color: var(--soft-gold) !important;
+  border: 1px solid var(--soft-gold);
+}
+
+.boxed-btn:hover {
+  background: var(--soft-gold);
+  color: var(--off-white) !important;
+  border: 1px solid var(--soft-gold);
+}
+
+.boxed-btn3 {
+  background: var(--soft-gold);
+  color: var(--off-white) !important;
+  border: 1px solid transparent;
+}
+
+.boxed-btn3:hover {
+  background: transparent;
+  color: var(--soft-gold) !important;
+  border: 1px solid var(--soft-gold);
+}
+
+.boxed-btn3-white {
+  color: var(--off-white);
+  border: 1px solid var(--off-white);
+}
+
+.boxed-btn3-white:hover {
+  background: var(--emerald-green);
+  color: var(--off-white) !important;
+  border: 1px solid transparent;
+}
+
+.boxed-btn3-line {
+  color: var(--off-white) !important;
+  border: 1px solid var(--emerald-green);
+  background: var(--emerald-green);
+}
+
+.boxed-btn3-line:hover {
+  color: var(--emerald-green) !important;
+  border: 1px solid var(--emerald-green);
+  background: var(--off-white);
+}
+
+/* Cores do cabeçalho */
+.header-area .main-header-area.sticky {
+  background: var(--off-white);
+}
+
+.header-area .header-top_area {
+  background: var(--off-white);
+}
+
+.header-area .main-header-area .buy_tkt .book_btn a {
+  background: var(--soft-gold);
+  color: var(--emerald-green);
+}
+
+.header-area .main-header-area .buy_tkt .book_btn a:hover {
+  border-color: var(--soft-gold);
+  color: var(--soft-gold);
+  background: transparent;
+}
+
+.header-area .main-header-area .main-menu ul li a.active,
+.header-area .main-header-area .main-menu ul li a:hover {
+  color: var(--emerald-green);
+}
+
+.slicknav_menu .slicknav_nav a.active,
+.slicknav_menu .slicknav_nav a:hover {
+  color: var(--emerald-green) !important;
+}
+
+/* Cores dos títulos das seções */
+.section_title h3 {
+  color: var(--emerald-green);
+}
+
+.section_title h4 {
+  color: #009B77;
+}
+
+/* Cores dos performers - Updated warm theme */
+.performar_area {
+background: rgba(248, 248, 248, 1);}
+
+.performar_area.black_bg {
+background: #F8F8F8;}
+
+.performar_area .single_performer {
+      width: 361px;
+  background: #009b77;
+  border-radius: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+    position: relative; /* ou absolute se quiser soltar do fluxo normal */
+    left: -30px;        /* move para a direita */
+    top: -30px;          /* move para baixo */
+}
+
+
+.performar_area .single_performer:hover {
+  background: #009b778a;
+  transform: translateY(-5px);
+}
+
+.performar_area .single_performer .performer_heading h4 {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+.performar_area .single_performer .performer_heading span {
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Section title colors */
+.performar_area .section_title h3 {
+  color: #009976;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      font-size: 58px;
+  left: 442px;
+    top: -71px;
+}
+
+/* Cores dos detalhes do programa */
+.program_details_area .program_detail_wrap .single_propram .porgram_top span {
+  color: var(--soft-gold);
+}
+
+/* Cores do rodapé */
+.footer {
+  background: var(--off-white);
+}
+
+.footer .footer_top .footer_widget h4 {
+  color: var(--soft-gold);
+}
+
+.footer .copy-right_text .copy_right a {
+  color: var(--soft-gold);
+}
+
+/* Cores das informações do mapa */
+.map_area .location_information h3 {
+  color: var(--soft-gold);
+}
+
+/* Cores do texto do slider */
+.slider_area .single_slider .slider_text span {
+  color: var(--soft-gold);
+}
+
+.slider_area .single_slider .slider_text h3 {
+  color: var(--emerald-green);
+}
+
+.slider_area .single_slider .slider_text p {
+  color: var(--emerald-green);
+}
+
+/* Cores da área sobre */
+.about_area .about_info h4 {
+  color: var(--soft-gold);
+}
+
+/* Borda da área de marcas */
+.brand_area .brand_wrap {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Cor da seleção */
+*::-moz-selection,
+::-moz-selection,
+::selection {
+  background: var(--emerald-green);
+  color: var(--off-white);
+}
+/* Cores personalizadas para o texto do slider */
+.slider_area .single_slider .slider_text h3 {
+  color: var(--soft-gold) !important; 
+}
+
+.slider_area .single_slider .slider_text span {
+  color: var(--turquoise-blue) !important; /* Dourado */
+}
+
+/* Para o botão */
+.slider_area .single_slider .slider_text button {
+  color: #FFD700 !important;
+  background: linear-gradient(30deg, #000 35%, #FFD700 73%) !important;
+  border-color: #FFD700 !important;
+}
+
+.slider_area .single_slider .slider_text button:hover {
+  background: #FFD700 !important;
+  color: #000 !important;
+}
+
+.slider_area .single_slider .slider_text {
+  transform: translateY(-30px);
+}
+

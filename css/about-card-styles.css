@@ -1,0 +1,133 @@
+/* Código unificado sem animação e resize da logo */
+
+.card {
+  width: 300px;
+  background: #243137;
+  position: relative;
+  display: grid;
+  place-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+#logo-main, #logo-second {
+  height: 100%;
+}
+
+#logo-main {
+  fill: #bd9f67;
+}
+
+#logo-second {
+  padding-bottom: 5px;
+  fill: none;
+  stroke: #bd9f67;
+  stroke-width: 1px;
+}
+
+.border {
+  position: absolute;
+  inset: 0px;
+  border: 2px solid #bd9f67;
+  opacity: 0;
+  transform: rotate(10deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.bottom-text {
+  position: absolute;
+  left: 50%;
+  bottom: 13px;
+  transform: translateX(-50%);
+  font-size: 6px;
+  text-transform: uppercase;
+  padding: 0px 5px 0px 8px;
+  color: #bd9f67;
+  background: #243137;
+  opacity: 0;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.content {
+  transition: all 0.5s ease-in-out;
+}
+
+.content .logo {
+  position: none;
+  width: 200px;  /* largura fixa, sem alteração ao hover */
+  height: 200px;
+  overflow: visible;
+  transition: none; /* remove transições pra evitar animações */
+}
+
+.content .logo .logo1 {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  height: 100px;
+}
+
+.content .logo .logo2 {
+  position: absolute;
+  left: 150px;
+  top: 110px;
+  height: 55px;
+}
+
+.content .logo .trail {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  letter-spacing: 2px;
+}
+
+.content .logo-bottom-text {
+  position: none;
+  left: 56%;
+  top: 68%;           /* mais para baixo */
+  transform: translate(-50%, -50%);
+  margin-top: 0;       /* zera margem */
+  color: #bd9f67;
+  padding-left: 3px;
+  font-size: 9px;      /* menor fonte */
+  opacity: 0;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out 0.5s;
+}
+
+
+.card:hover {
+  border-radius: 0;
+  transform: scale(1.1);
+}
+
+/* REMOVIDA a animação e resize da logo no hover */
+/* .card:hover .logo {
+  width: 150px;
+  animation: opacity 1s ease-in-out;
+} */
+
+.card:hover .border {
+  inset: 15px;
+  opacity: 1;
+  transform: rotate(0);
+}
+
+.card:hover .bottom-text {
+  letter-spacing: 3px;
+  opacity: 1;
+  transform: translateX(-50%);
+}
+
+.card:hover .content .logo-bottom-text {
+  opacity: 1;
+  letter-spacing: 5px;
+}
+
+.card:hover .trail {
+  animation: trail 1s ease-in-out;
+}

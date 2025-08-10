@@ -1,0 +1,26 @@
+/* Aplicando Poppins como fonte padrão para todo o corpo do texto */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Aplicando Playfair Display para títulos */
+h1, h2, h3, h4, h5, h6,
+.section_title h3,
+.slider_text h3,
+.performer_heading h4,
+.about_info h4,
+.location_information h3,
+.footer_widget h4,
+.footer_widget h3,
+.brand_area .section_title h4 {
+    font-family: 'Playfair Display', serif ;
+}
+
+/* Aplicando Playfair Display para elementos específicos que devem ter fonte de título */
+.slider_text span,
+.porgram_top span,
+.porgram_top h4,
+.single_propram h4,
+.performer_heading span {
+    font-family: 'Playfair Display', serif;
+}
