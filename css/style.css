@@ -1616,12 +1616,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 40px;
-    line-height: 1.2;
-    margin: 20px 0;
-  }
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 37px;
+        line-height: 1.2;
+        margin: 20px 0;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
