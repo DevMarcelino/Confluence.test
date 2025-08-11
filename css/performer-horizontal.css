@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  margin: -25px;
+  margin: -14px;
 }
 
 /* Chaque apresentador */
@@ -315,11 +315,12 @@
   font-weight: 600;
   color: #D9AB5D;
   margin-bottom: 8px;
+  line-height: 30px;
 }
 
 .performar_area .single_performer .performer_heading span {
-  color: #f8f8f8;
-  font-size: 16px;
+    color: #299b77;
+    font-size: 16px;
 }
 
 /* Responsividade */

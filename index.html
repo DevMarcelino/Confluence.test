@@ -21,26 +21,20 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/slicknav.css">
-
+    <link rel="stylesheet" href="css/mobile-responsive-optimized.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom-colors.css">
-    <link rel="stylesheet" href="css/color-overrides.css">
-    <link rel="stylesheet" href="css/custom-fonts.css">
     <link rel="stylesheet" href="css/about-card-styles.css">
-    <link rel="stylesheet" href="css/mobile-responsive.css">
     <link rel="stylesheet" href="css/performer-horizontal.css">
+    <link rel="stylesheet" href="css/mobile-menu-enhanced.css">
 </head>
 
 <body>
 
 
     <!-- header-start -->
-    <header>
+   <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
                 <div class="container">
@@ -57,30 +51,40 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">início</a></li>
-                                            <li><a href="https://wa.link/q5rjh3">Contato</a></li>
+                                            <li><a href="#home">início</a></li>
+                                            <li><a href="#about">sobre</a></li>
+                                            <li><a href="#ticket-section">ingressos</a></li>
+                                            <li><a href="#mentors">mentoras</a></li>
+                                            <li><a href="#gallery">galeria</a></li>
+                                            <li><a href="https://wa.link/q5rjh3">contato</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="buy_tkt">
-<div class="book_btn d-none d-lg-block">
-    <a href="#ticket-section" class="fancy">
-        <span class="text">Ingressos</span>
-        <span class="top-key"></span>
-        <span class="bottom-key-1"></span>
-        <span class="bottom-key-2"></span>
+                                 <div class="book_btn d-none d-lg-block">
+                                <a href="#ticket-section" class="fancy">
+                                 <span class="text">Ingressos</span>
+                                 <span class="top-key"></span>
+                                 <span class="bottom-key-1"></span>
+                                 <span class="bottom-key-2"></span>
     </a>
 </div>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
+                                <!-- Enhanced Mobile Menu Toggle -->
+                                <button class="mobile-menu-toggle d-lg-none" aria-label="Abrir menu">
+                                    <div class="hamburger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </button>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -88,7 +92,7 @@
     <!-- header-end -->
 
     <!-- slider_area_start -->
-    <div class="slider_area">
+    <div id="home" class="slider_area">
         <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -131,14 +135,18 @@
 </button>
     <!-- slider_area_end -->
 <!-- about_area_start -->
-<div class="about_area black_bg">
+<div id="about" class="about_area black_bg">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <div class="section_title text-center mb-80">
           <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Sobre o Programa</h3>
           <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
-            Nosso encontro VIP é dedicado a mulheres que vivem na Europa. Empreendedoras, profissionais em transição ou buscadoras conscientes, e que sentem que existe um novo nível a ser acessado: mais leveza, mais sentido, mais expansão.
+            Descubra o Poder do Encontro VIP!
+
+Atenção, mulheres incríveis! Este é o seu convite para um evento transformador, exclusivo para aquelas que falam e entendem português. Se você é uma empreendedora visionária, uma profissional em busca de novas oportunidades ou uma buscadora consciente de seu verdadeiro propósito, este encontro é para você!
+
+Prepare-se para acessar um novo nível de existência! Um espaço onde a leveza, o significado e a expansão se entrelaçam, proporcionando um ambiente acolhedor para que você possa se reinventar e brilhar ainda mais. Junte-se a nós e comece a jornada rumo a uma vida plena e realizada!
           </p>
         </div>
       </div>
@@ -164,7 +172,7 @@
                 </div>
                 <span class="trail"></span>
               </div>
-              <span class="logo-bottom-text">Mulheres que florescem no mundo</span>
+              <span class="logo-bottom-text"></span>
             </div>
             <span class="bottom-text" font-size="5">CONFLUENCE-C</span>
           </div>
@@ -177,7 +185,7 @@
             O evento atrai uma variedade de participantes de todo o mundo, de diferentes profissões e com diferentes níveis de experiência que transformam seus negócios.
           </p>
           <a href="#ticket-section" class="boxed-btn3 fancy wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">
-            <span class="text">Comprar Ingresso</span>
+            <span class="text">Garanta sua entrada</span>
             <span class="top-key"></span>
             <span class="bottom-key-1"></span>
             <span class="bottom-key-2"></span>
@@ -188,7 +196,8 @@
   </div>
 </div>
 <!-- about_area_end -->
-   
+<div class="linha"></div>
+
     <!-- performar_area_end  -->
 
     <!-- test_area_start  -->
@@ -202,44 +211,43 @@
 
         <!-- Conectada Popular Ticket -->
         <article class="card popular" role="region" aria-label="1 lote - 99 euros">
-          <div class="top-label" aria-hidden="true">Mais Popular</div>
+          
           <div class="ribbon" aria-hidden="true">Lote 1</div>
           <h3><center>11/08 a 10/09</h3>
-          <p class="price" >99 €</p>
+          <center><p class="price" >99 €</p>
           <ul>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="disabled">????????????????????????</li>
-            <li class="disabled">????????????????????????</li>
-            <li class="disabled">????????????????????????</li>
-            <li class="disabled">????????????????????????</li>
+<li class="enabled">🍵 High Tea Seletivo – Uma seleção impecável de aperitivos finos, servidos com requinte.</li>
+<li class="enabled">🤝 Networking de Alto Nível – Conexões genuínas com mulheres inspiradoras e visionárias.</li>
+<li class="enabled">🎥 Momentos Eternizados – Vídeos e fotos profissionais para registrar sua presença nesta experiência única.</li>
+<li class="enabled">📜 Sua Página na Revista – Cada convidada terá uma página exclusiva na Revista Confluence-C para registrar sua história.</li>
+<li class="enabled">💎 Exclusividade Absoluta – Um evento pensado para poucas, mas inesquecível para todas.</li>
+<li class="enabled">🚢 Taxi Aquático – Você terá acesso a um passeio em um táxi aquático.</li>
+<li class="enabled">🎁  Brindes – Cada participante receberá um kit de brindes exclusivo.</li>
           </ul>
-          <button class="btn btn-buy" type="button" aria-label="Comprar bilhete 1 Lote">Comprar Bilhete</button>
+          <center>Válido para as primeiras 9 pessoas!</center>
+          <a href="https://wa.link/kyvltn" target="_blank">
+  <button class="btn btn-buy" type="button" aria-label="Comprar bilhete 1 Lote">Garanta sua entrada</button>
+</a>
         </article>
 
         <!-- Conectada Master Ticket -->
         <article class="card" role="region" aria-label="Conectada Master Ticket - 137,90 euros">
           <div class="ribbon" aria-hidden="true">Lote 2</div>
-          <h3><center>11/09 a 01/10</h3>
-          <p class="price">137,90 €</p>
-          <ul>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-            <li class="enabled">????????????????????????</li>
-
+          <h3><center>11/09 a 01/10</h3></center>
+          <center><p class="price">137,90 €</p></center>
+                   <ul>
+<li class="enabled">🍵 High Tea Seletivo – Uma seleção impecável de aperitivos finos, servidos com requinte.</li>
+<li class="enabled">🤝 Networking de Alto Nível – Conexões genuínas com mulheres inspiradoras e visionárias.</li>
+<li class="enabled">🎥 Momentos Eternizados – Vídeos e fotos profissionais para registrar sua presença nesta experiência única.</li>
+<li class="enabled">📜 Sua Página na Revista – Cada convidada terá uma página exclusiva na Revista Confluence-C para registrar sua história.</li>
+<li class="enabled">💎 Exclusividade Absoluta – Um evento pensado para poucas, mas inesquecível para todas.</li>
+<li class="disabled">🚢 Taxi Aquático – Você terá acesso a um passeio em um táxi aquático.</li>
+<li class="disabled">🎁  Brindes – Cada participante receberá um kit de brindes exclusivo.</li>
           </ul>
-          <button class="btn btn-free" type="button" aria-label="Comprar bilhete Conectada Master">Comprar Bilhete</button>
+          <center>.</center>
+          <a href="https://wa.link/kyvltn" target="_blank">
+  <button class="btn btn-buy" type="button" aria-label="Comprar bilhete 1 Lote">Garanta sua entrada</button>
+</a>
         </article>
 </div>
       </div>
@@ -318,32 +326,23 @@
     </div>
     -->
   <!-- performar_area_start  -->
-<div class="performar_area black_bg">
+<div id="mentors" class="performar_area black_bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section_title mb-80">
-                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Anfitriãs</h3>
+                                <div class="section_title mb-80">
+                        <h3 class="wow fadeInRight animated" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">Nossas Mentoras:</h3>
+<h4>fazendo a diferença enquanto orientam e inspiram você em cada passo do caminho.</h4>
                     </div>
                 </div>
             </div>
             <div class="row justify-ontent-center">
                 <div class="col-lg-12">
                     <div class="row performer-horizontal">
+                        
                         <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                <div data-tilt class="thumb">
-                                    <img src="img/performer/ked.jpeg" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Kedna Tetradis</h4>
-                                    <span>Especialista em investimentos imobiliários, ela ajuda famílias e investidores — especialmente brasileiros — a realizarem sonhos no mercado europeu. Com atenção a cada etapa da compra, oferece oportunidades acessíveis, seguras e rentáveis, criando uma ponte para um futuro financeiro mais sólido e promissor.<br></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                <div data-tilt class="thumb">
+                            <div class="single_performer wow fadeInUp animated animated" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s;">
+                                <div data-tilt="" class="thumb" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
                                     <img src="img/performer/sul.jpeg" alt="">
                                 </div>
                                 <div class="performer_heading">
@@ -353,8 +352,18 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                <div data-tilt class="thumb">
+                            <div class="single_performer wow fadeInUp animated animated" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                                <div data-tilt="" class="thumb" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
+                                    <img src="img/performer/ked.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Kedna Tetradis</h4>
+                                    <span>Especialista em investimentos imobiliários, ela ajuda famílias e investidores — especialmente brasileiros — a realizarem sonhos no mercado europeu. Com atenção a cada etapa da compra, oferece oportunidades acessíveis, seguras e rentáveis, criando uma ponte para um futuro financeiro mais sólido e promissor.<br></span>
+                                </div>
+                            </div>
+                        </div><div class="col-lg-3 col-md-3 col-sm-6">
+                            <div class="single_performer wow fadeInUp animated animated" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s;">
+                                <div data-tilt="" class="thumb" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
                                     <img src="img/performer/lili.jpeg" alt="">
                                 </div>
                                 <div class="performer_heading">
@@ -371,14 +380,15 @@
             </div>
         </div>
     </div>
+    <div class="linha"></div>
     <!-- map_area_start  -->
-    <div class="gallery_area black_bg">
+    <div id="gallery" class="gallery_area black_bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center mb-80">
-                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Galeria do Local</h3>
-                        <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Conheça o espaço onde acontecerá o CONFLUENCE-C</p>
+                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Venha conhecer Rotterdam como nunca viu</h3>
+                        <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Conheça a cidade onde acontecerá o CONFLUENCE-C</p>
                     </div>
                 </div>
             </div>
@@ -547,8 +557,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- footer_end  -->
 
     <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/modernizr-3.5.0.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -569,8 +579,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 
+    <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/main.js"></script>
-    
-</body>
-
+    <script src="js/menu-debug.js"></script>
+    <script src="js/menu-debug-highlight.js"></script>
+    <script src="js/mobile-menu-enhanced.js"></script>
 </html>

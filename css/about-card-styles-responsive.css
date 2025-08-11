@@ -1,7 +1,8 @@
-/* Código unificado sem animação e resize da logo */
+/* Código unificado sem animação e resize da logo - RESPONSIVO */
 
 .card {
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   background: #243137;
   position: relative;
   display: grid;
@@ -9,10 +10,12 @@
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
+  margin: 0 auto;
 }
 
 #logo-main, #logo-second {
   height: 100%;
+  max-width: 100%;
 }
 
 #logo-main {
@@ -55,25 +58,26 @@
 }
 
 .content .logo {
-  position: none;
-  width: 200px;  /* largura fixa, sem alteração ao hover */
+  position: relative;
+  width: 200px;
   height: 200px;
   overflow: visible;
-  transition: none; /* remove transições pra evitar animações */
+  transition: none;
+  margin: 0 auto;
 }
 
 .content .logo .logo1 {
-    position: relative;
-    left: -36px;
-    top: 75px;
-    height: 75px;
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  height: 100px;
 }
 
 .content .logo .logo2 {
-    position: relative;
-    left: 64px;
-    top: 26px;
-    height: 45px;
+  position: absolute;
+  left: 150px;
+  top: 110px;
+  height: 55px;
 }
 
 .content .logo .trail {
@@ -86,30 +90,23 @@
 }
 
 .content .logo-bottom-text {
-  position: none;
+  position: absolute;
   left: 56%;
-  top: 68%;           /* mais para baixo */
+  top: 68%;
   transform: translate(-50%, -50%);
-  margin-top: 0;       /* zera margem */
+  margin-top: 0;
   color: #bd9f67;
   padding-left: 3px;
-  font-size: 9px;      /* menor fonte */
+  font-size: 9px;
   opacity: 0;
   letter-spacing: 2px;
   transition: all 0.5s ease-in-out 0.5s;
 }
 
-
 .card:hover {
   border-radius: 0;
   transform: scale(1.1);
 }
-
-/* REMOVIDA a animação e resize da logo no hover */
-/* .card:hover .logo {
-  width: 150px;
-  animation: opacity 1s ease-in-out;
-} */
 
 .card:hover .border {
   inset: 15px;
@@ -130,4 +127,74 @@
 
 .card:hover .trail {
   animation: trail 1s ease-in-out;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content .logo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .content .logo .logo1 {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 80px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .content .logo .logo2 {
+    position: relative;
+    left: auto;
+    top: auto;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .bottom-text {
+    font-size: 5px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 280px;
+    padding: 15px;
+  }
+  
+  .content .logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .content .logo .logo1 {
+    height: 60px;
+  }
+  
+  .content .logo .logo2 {
+    height: 30px;
+  }
+  
+  .bottom-text {
+    font-size: 4px;
+    bottom: 8px;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    max-width: 380px;
+  }
 }

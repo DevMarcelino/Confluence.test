@@ -78,7 +78,7 @@ button {
 /* line 52, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
     font-family: "poppins", sans-serif;
-    color: #ea8b19;
+    color: #d9ab5d;
 }
 
 /* line 56, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -192,7 +192,7 @@ h3 {
 
 /* line 136, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 .black_bg {
-  background: #000000;
+  background: #f8f8f8;
 }
 
 /* line 139, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -440,24 +440,24 @@ h3 {
 
 /* line 343, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 #scrollUp {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  background: #FF4533;
-  z-index: 99;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
-  color: #fff;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #d9ab5d;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 /* line 357, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -501,36 +501,35 @@ h3 {
 
 /* line 27, ../../Arafath/CL/December/236. Event-02/HTML/scss/_btn.scss */
 .boxed-btn3 {
-  background: #FF4533;
-  /* IE6-9 */
-  color: #fff;
-  display: inline-block;
-  padding: 14px 35px;
-  font-family: "Anton", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  border: 0;
-  border: 1px solid transparent;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  text-align: center;
-  color: #fff;
-  text-transform: capitalize;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
-  letter-spacing: 2px;
+    background: #d9ab5d;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 35px;
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 2px;
 }
 
 /* line 46, ../../Arafath/CL/December/236. Event-02/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   background: transparent;
   /* IE6-9 */
-  color: #FF4533 !important;
-  border: 1px solid #FF4533;
+  color: #12a281 !important;
+  border: 1px solid #d9ab5d;
 }
 
 /* line 51, ../../Arafath/CL/December/236. Event-02/HTML/scss/_btn.scss */
@@ -707,17 +706,20 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 80px;
-  font-weight: 400;
-  color: #fff;
-  position: relative;
-  z-index: 0;
-  padding-bottom: 7px;
+    font-size: 80px;
+    font-weight: 400;
+    color: #299b77;
+    position: relative;
+    z-index: 0;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    font-family: 'Playfair Display', serif;
 }
 
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
   .section_title h3 {
+    top: 10px;
     font-size: 30px;
     line-height: 36px;
   }
@@ -762,13 +764,13 @@ h3 {
 
 /* line 34, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
 .section_title p {
-  font-size: 20px;
-  color: #AAB1B7;
-  line-height: 32px;
-  margin-bottom: 0;
-  font-weight: 400;
-  margin-bottom: 0px;
-  font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #AAB1B7;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -780,11 +782,11 @@ h3 {
 
 /* line 50, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
 .section_title h4 {
-  font-size: 30px;
-  font-weight: 400;
-  color: #FF4533;
-  font-family: "Poppins", serif;
-  margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #d9ab5d;
+    font-family: "Poppins", serif;
+    margin-bottom: 0;
 }
 
 /* line 57, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
@@ -825,6 +827,16 @@ h3 {
     right: 0px;
     width: 100%;
     z-index: 9;
+  }
+  
+  /* Fix: Ocultar menu mobile por padrão */
+  .slicknav_menu .slicknav_nav {
+    display: none;
+  }
+  
+  /* Mostrar menu quando ativo */
+  .slicknav_menu.slicknav_open .slicknav_nav {
+    display: block;
   }
 }
 
@@ -938,7 +950,7 @@ h3 {
   padding: 5px;
   right: 0;
   margin-top: -5px;
-  top: -36px;
+  top: -27px;
 }
 
 /* line 106, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slick-nav.scss */
@@ -1121,17 +1133,17 @@ h3 {
 
 /* line 100, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .main-header-area .buy_tkt .book_btn a {
-  background: #FF4533;
-  font-family: "Anton", sans-serif;
-  padding: 12px 46px;
-  font-size: 16px;
-  font-weight: 400;
-  border: 1px solid transparent;
-  color: #fff;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  text-transform: capitalize;
+    background: #d9ab5d;
+    font-family: "Anton", sans-serif;
+    padding: 12px 46px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-transform: capitalize;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1176,15 +1188,15 @@ h3 {
 
 /* line 139, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
-  font-size: 20px;
-  text-transform: capitalize;
-  font-weight: 400;
-  display: inline-block;
-  padding: 30px 0 30px  0;
-  font-family: "Anton", sans-serif;
-  position: relative;
-  text-transform: uppercase;
+    color: #009b77;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    display: inline-block;
+    padding: 30px 0 30px 0;
+    font-family: "Anton", sans-serif;
+    position: relative;
+    text-transform: uppercase;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1304,19 +1316,19 @@ h3 {
 
 /* line 241, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky {
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  top: -70px;
-  left: 0;
-  right: 0;
-  z-index: 990;
-  transform: translateY(70px);
-  transition: transform 500ms ease, background 500ms ease;
-  -webkit-transition: transform 500ms ease, background 500ms ease;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  padding: 0px 0px;
-  background: #000;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    z-index: 990;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    padding: 0px 0px;
+    background: #f6f6f4;
 }
 
 @media (max-width: 767px) {
@@ -1598,7 +1610,7 @@ h3 {
   font-size: 122px;
   text-transform: uppercase;
   font-weight: 400;
-  color: #fff;
+  color: #d9ab5d;
   line-height: 1;
   margin-top: 55px;
 }
@@ -1606,7 +1618,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.2;
     margin: 20px 0;
   }
@@ -1630,7 +1642,7 @@ h3 {
 .slider_area .single_slider .slider_text p {
   font-size: 30px;
   font-weight: 400;
-  color: #FFF;
+  color: #009b77;
   margin-bottom: 34px;
   margin-top: 10px;
   font-family: "Poppins", sans-serif;
@@ -2061,10 +2073,11 @@ h3 {
 
 /* line 48, ../../Arafath/CL/December/236. Event-02/HTML/scss/_about.scss */
 .about_area .about_info h4 {
-  font-family: "Anton", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #FF4533;
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #d9ab5d;
+    line-height: 37px;
 }
 
 /* line 54, ../../Arafath/CL/December/236. Event-02/HTML/scss/_about.scss */
@@ -2613,13 +2626,13 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_footer.scss */
 .footer {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: #000000;
-  position: relative;
-  z-index: 9;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #f8f8f8;
+    position: relative;
+    z-index: 9;
 }
 
 /* line 9, ../../Arafath/CL/December/236. Event-02/HTML/scss/_footer.scss */
@@ -2881,6 +2894,7 @@ h1 {
 /* line 97, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 h2 {
   font-size: 30px;
+      padding-top: 80px;
 }
 
 /* line 101, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
@@ -2910,7 +2924,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 3.2em;
+  line-height: 1.2em;
 }
 
 /* line 127, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
@@ -4181,7 +4195,7 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 0rem;
+  gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 0;
@@ -4212,7 +4226,7 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
 .ribbon {
     width: 140px;
     height: 26px;
-    background: #ea8b19;
+    background: #d9ab5d;
     color: white;
     font-weight: 600;
     font-size: 0.8rem;
@@ -4223,7 +4237,7 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
     right: -21px;
     transform: rotate(45deg);
     transform-origin: top right;
-    box-shadow: 0 0 8px #ea8b19;
+    box-shadow: 0 0 8px #d9ab5d;
     user-select: none;
 }
 
@@ -4247,17 +4261,17 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
     font-weight: 900;
     font-size: 1.25rem;
     margin-top: 23px;
-    margin-bottom: -0.25rem;
+
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
 
 .card .price {
-  font-weight: 800;
-  font-size: 2rem;
-  color: #ff5500;
-  margin-bottom: 1.5rem;
-  letter-spacing: 0.05em;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #d9ab5d;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05em;
 }
 
 .card ul {
@@ -4331,14 +4345,14 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
 }
 
 .btn-buy {
-  background-color: #ff5500;
-  color: white;
-  box-shadow: 0 3px 0 #cc4400;
+    background-color: #d9ab5d;
+    color: white;
+    box-shadow: 0 3px 0 #d9ab5d;
 }
 .btn-buy:hover,
 .btn-buy:focus {
-  background-color: #e04c00;
-  box-shadow: 0 1px 0 #a93200;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 #d9ab5d;
   outline: none;
 }
 
@@ -6034,27 +6048,25 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
 
 /* From Uiverse.io by cssbuttons-io */ 
 .fancy {
- background-color: transparent;
- border: 2px solid #000000;
- border-radius: 0;
- box-sizing: border-box;
- color: #000000;
- cursor: pointer;
- display: inline-block;
- float: none;
- font-weight: 700;
- letter-spacing: 0.05em;
- margin: 0;
- outline: none;
- overflow: visible;
- padding: 1.25em 2em;
- position: relative;
- text-align: center;
- text-decoration: none;
- text-transform: none;
- transition: all 0.3s ease-in-out;
- user-select: none;
- font-size: 13px;
+    background-color: #d9ab5d;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
 }
 
 .fancy::before {
@@ -6105,7 +6117,7 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
 
 .fancy:hover {
  color: white;
- background: #009B77;
+ background: #009b7700;
 }
 
 .fancy:hover::before {
@@ -6210,7 +6222,7 @@ background: linear-gradient(to bottom, #F8F8F8 0%, rgb(131 98 0) 150%);
 }
 
 .performar_area {
-  padding-top: 135px;
+  padding-top: 75px;
   padding-bottom: 63px;
 }
 
@@ -6485,4 +6497,11 @@ button:hover .star-6 {
   border-right: 4px solid transparent;
   box-sizing: border-box;
   transform: translateX(-100%);
+}
+.linha {
+  width: 80px;
+  height: 2px;
+  background-color: #009b77;
+  margin: 0 auto; /* centraliza */
+  padding: 0;
 }
